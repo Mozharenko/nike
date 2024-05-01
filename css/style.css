@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+
+body {
+  background-color: #012d63;
+  color: #fff;
+  font-family: "Roboto";
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  outline: 3px solid rgb(255, 0, 0);
+}
+
+.menu a {
+  color: #c7c7c7;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.menu li:first-child a {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header img {
+  padding: 16px 152px 17px 3px;
+}
+
+.menu li {
+  padding: 30px 29px 33px 0px;
+}
+
+.ua-lang {
+  margin-right: 5px;
+
+  color: #dcdcdc;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.eng-lang {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.img-nike-logo {
+  width: 160px;
+  height: 120px;
+}
+
+.menu {
+  display: flex;
+}
+
+.colo-rawe {
+  background-image: url(../img/bg-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.colo-rawe p,
+.colo-rawe button {
+  font-family: "PT Serif", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+}
+
+.colo-rawe p {
+  width: 508px;
+  height: 84px;
+  padding-bottom: 41px;
+}
+
+.colo-rawe h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 144px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.colo-rawe h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 72px;
+}
+
+.colo-rawe button {
+  width: 254px;
+  height: 67px;
+  border-radius: 10px;
+  background: #8e32c6;
+}
+
+.quality,
+.rewiews,
+.order {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.quality {
+  background-image: url(../img/bg-4.png);
+}
+
+.rewiews {
+  background-image: url(../img/bg-3.png);
+  padding-bottom: 115px;
+}
+
+.order {
+  background-image: url(../img/bg-1.png);
+}
+
+.quality-text,
+.rewiews h2,
+.order h3 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.quality ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.li-container {
+  height: 396px;
+  padding-top: 105px;
+  padding-bottom: 106px;
+}
+
+.text-quality {
+  border: 5px #8e32c6 solid;
+}
+
+.date {
+  padding-left: 13px;
+}
+
+.flex-2 {
+  display: flex;
+  padding-top: 47px;
+}
+
+.quality-img-1,
+.quality-img-2,
+.quality-img-3 {
+  width: 240px;
+  height: 396px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.quality-img-2 p {
+  display: flex;
+  align-items: center;
+  padding-top: 275px;
+  width: 161px;
+  height: 102px;
+  position: absolute;
+}
+
+.text-quality {
+  display: flex;
+  align-items: center;
+}
+
+.quality-img-1 {
+  background-image: url(../Image/premium-quality.svg);
+  background-position-y: bottom;
+}
+
+.quality-img-2 {
+  background-image: url(../Image/paint.svg);
+  background-position: top;
+}
+
+.quality-img-3 {
+  background-image: url(../Image/fast-shopping.png);
+  background-position: bottom;
+}
+
+.text-card {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  padding: 49px 14px 8px 13px;
+}
+
+.date,
+.date-year {
+  color: #d8d8d8;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.photo {
+  padding-left: 13px;
+  padding-bottom: 29px;
+  padding-right: 5px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card li {
+  width: 255px;
+
+  border-radius: 15px;
+}
+
+.card li:nth-child(1) {
+  background-image: linear-gradient(
+    135deg,
+    hsl(180deg 100% 45%) 0%,
+    hsl(189deg 100% 48%) 13%,
+    hsl(196deg 100% 49%) 25%,
+    hsl(203deg 97% 54%) 37%,
+    hsl(217deg 100% 66%) 50%,
+    hsl(245deg 98% 75%) 63%,
+    hsl(269deg 76% 68%) 75%,
+    hsl(287deg 59% 62%) 87%,
+    hsl(305deg 52% 58%) 100%
+  );
+  box-shadow: 0px 14px 0px -5px #7b54b2, 0px 30px 0px -13px #533978;
+}
+
+.card li:nth-child(2) {
+  background-image: linear-gradient(
+    135deg,
+    hsl(330deg 100% 70%) 0%,
+    hsl(322deg 100% 68%) 13%,
+    hsl(315deg 100% 65%) 25%,
+    hsl(307deg 95% 62%) 37%,
+    hsl(298deg 85% 59%) 50%,
+    hsl(288deg 96% 61%) 63%,
+    hsl(278deg 100% 64%) 75%,
+    hsl(267deg 100% 67%) 87%,
+    hsl(255deg 100% 69%) 100%
+  );
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+}
+
+.card li:nth-child(3) {
+  background-image: linear-gradient(
+    135deg,
+    hsl(52deg 100% 58%) 0%,
+    hsl(42deg 100% 62%) 13%,
+    hsl(31deg 100% 66%) 25%,
+    hsl(21deg 100% 69%) 37%,
+    hsl(13deg 100% 72%) 50%,
+    hsl(4deg 100% 74%) 63%,
+    hsl(356deg 100% 74%) 75%,
+    hsl(349deg 100% 70%) 87%,
+    hsl(341deg 100% 66%) 100%
+  );
+  box-shadow: 0px 14px 0px -5px #9159b1, 0px 30px 0px -13px #61337c;
+}
+
+.order {
+  background-image: url(../img/bg-1.png);
+  background-position: center;
+}
+
+.order input {
+  display: block;
+  width: 580px;
+  height: 50px;
+  border-radius: 50px;
+  background: #fff;
+  margin: 0 auto 19px;
+  color: #959595;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.order input:nth-child(1) {
+  font-size: 28px;
+  width: 690px;
+  height: 60px;
+}
+
+.center-block {
+  display: block;
+  width: 248px;
+  height: 68px;
+  border-radius: 16px;
+  background: #8e32c6;
+  color: #fff;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.order h3 {
+  padding: 20px 0px 33px 0px;
+}
+
+.rewiews h2 {
+  padding: 24px 0px 24px 0px;
+}
+
+.candr {
+  color: #fff;
+
+  font-family: "PT Serif";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.colo-rawe {
+  padding-bottom: 183px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 45px;
+  padding-bottom: 44px;
+}
+
+.footer p {
+  padding-bottom: 10px;
+  color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.footer a {
+  display: flex;
+  justify-content: right;
+
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  padding-bottom: 10px;
+}
+
+.form {
+  padding-bottom: 37px;
+}
